@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>signUp</class>
+ <widget class="QDialog" name="signUp">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>318</width>
+    <height>339</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog {
+		background-color:  qlineargradient(
+		spread:pad, x1:0, y1:0 x2:0, y2:0,
+		stop: 0 #A3D8F4, stop:1 #E6F7FF
+		);
+		border: 2px solid #ffffff;
+		boder-radius: 10px;
+}
+
+QLineEdit {
+		border: 2px solid #E63946;
+		border-radius: 5px;
+		padding: 5px;
+		font-size: 14px;
+		background-color: #ffffff;
+		color: #333333;
+}
+
+QLineEdit:forcus {
+		border: 2px solid #457B9D;
+		background-color: #F1FAEE;
+}
+
+QPushButton{
+		background-color: #2A9D8F;
+		color: white;
+		border: none;
+		border-radius: 15px;
+		padding: 10px 20px;
+		font-size: 14px;
+}
+
+QPushButton:hover{
+background-color: #264653;
+}
+
+QPushButton:pressed{
+background-color: #1B3B3A;
+}
+
+QLabel{
+font-size :14px;
+color: #1D3557;
+font-weight: bold;
+}</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>120</y>
+     <width>81</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>User Name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>150</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>190</y>
+     <width>81</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Password</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>220</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>270</y>
+     <width>89</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sign Up</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>20</y>
+     <width>251</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="resoure.qrc">:/new/prefix1/images.png</pixmap>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resoure.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>snowman.png</file>
+        <file>images.png</file>
+        <file>refresh_icon.png</file>
+        <file>add_friend_icon.png</file>
+        <file>friend_list.png</file>
+        <file>group_chat.png</file>
+        <file>send.png</file>
+        <file>chat.png</file>
+        <file>leave.png</file>
+        <file>plus.png</file>
+        <file>join.png</file>
+        <file>add_group.png</file>
+        <file>user.png</file>
+        <file>return.png</file>
+        <file>accept.png</file>
+        <file>decline.png</file>
+        <file>add.png</file>
+        <file>request-send.png</file>
+        <file>unfriend.png</file>
+    </qresource>
+</RCC>

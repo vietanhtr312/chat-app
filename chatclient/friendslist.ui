@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FriendsList</class>
+ <widget class="QDialog" name="FriendsList">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>391</width>
+    <height>274</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog {
+		background-color:  qlineargradient(
+		spread:pad, x1:0, y1:0 x2:0, y2:0,
+		stop: 0 #A3D8F4, stop:1 #E6F7FF
+		);
+		border: 2px solid #ffffff;
+		boder-radius: 10px;
+}
+
+QLineEdit {
+		border: 2px solid #E63946;
+		border-radius: 5px;
+		padding: 5px;
+		font-size: 14px;
+		background-color: #ffffff;
+		color: #333333;
+}
+
+QLineEdit:forcus {
+		border: 2px solid #457B9D;
+		background-color: #F1FAEE;
+}
+
+QPushButton{
+		background-color: #2A9D8F;
+		color: white;
+		border: none;
+		border-radius: 15px;
+		padding: 10px 20px;
+		font-size: 14px;
+}
+
+QPushButton:hover{
+background-color: #264653;
+}
+
+QPushButton:pressed{
+background-color: #1B3B3A;
+}
+
+QLabel{
+font-size :14px;
+color: #1D3557;
+font-weight: bold;
+}</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>List friend</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="refreshButton">
+   <property name="geometry">
+    <rect>
+     <x>308</x>
+     <y>10</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>:/new/prefix1/refresh_icon.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>50</y>
+     <width>331</width>
+     <height>151</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="backButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>220</y>
+     <width>89</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="text">
+    <string>Back  </string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>:/new/prefix1/return.png</normalon>
+    </iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="unfriendButton">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>220</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="text">
+    <string>Unfriend  </string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>:/new/prefix1/unfriend.png</normalon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
